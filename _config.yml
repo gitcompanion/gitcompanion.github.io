@@ -18,7 +18,7 @@ avatar: https://avatars3.githubusercontent.com/u/301123?v=3&s=460
 # Includes an icon in the footer for each username you enter
 footer-links:
   facebook: falexandrou
-  github: barryclark/jekyll-now
+  github: falexandrou
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: falexandrou
 
