@@ -32,4 +32,20 @@ $ git merge my-topic-branch # merge the "my-topic-branch" to master
 $ git push origin master # push to remote repository
 ```
 
-We don't always have to merge locally, we can submit and create pull requests directly on GitHub and merge, create discussions around them and then be merged by repository collaborators
+We don't always have to merge locally, we can submit and create pull requests directly on GitHub and merge, create discussions around them and then be merged by repository collaborators.
+
+Pro-tip: IF by any chance you've got a change set which is not included in the main branch, you can use `chery-pick` to add the specific commit. Example:
+
+```bash
+$ git branch
+ * accidental-branch-i-commited-to
+   correct-branch
+   master
+$ git checkout correct-branch
+$ git show accidental-branch-i-commited-to
+... abcdef123123435abcdfg # get the commit sha
+$ git cherry-pick abcdef123123435abcdfg
+```
+
+
+
