@@ -4,12 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+This is a walk through the adventures of Joe, a developer who, like many, had the brilliant idea to create the new facebook.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[Contact me](http://www.falexandrou.com)

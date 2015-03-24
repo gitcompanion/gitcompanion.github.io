@@ -2,17 +2,16 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<h1>Git Training</h1>
+<p>
+    Here is the Git Training walkthrough, an ambitious effort of a web developer, call him Joe, to create the new facebook. First things first, Joe must learn how to use Git in order to collaborate with his colleagues
+</p>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+<h4>Table of contents</h4>
+<ul class="posts">
+  {% for post in site.posts reversed %}
+  <li>
+      <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+  </li>
   {% endfor %}
-</div>
+</ul>
