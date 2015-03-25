@@ -17,7 +17,7 @@ $ git commit -m "I just added a billion commits as one"
 
 Now the branch should be 1 commit ahead of the `upstream/master` branch.
 
-Another form of manipulating the branch's history would be `git rebase` where the developer is able to pick, squash or omit all the commits that are not included in the base branch; For example
+Another form of manipulating the branch's history would be `git rebase` where the developer is able to pick, squash or omit all the commits that are not included when comparing the current with the base branch; For example
 
 ```bash
 $ git rebase -i upstream/master

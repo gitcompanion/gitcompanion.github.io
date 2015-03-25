@@ -3,7 +3,7 @@ layout: post
 title: SSH Setup
 ---
 
-When dealing with remote repositories, Git uses SSH to connect to the remote repository in a secure way. In order to use SSH painlessly, we should create SSH keys so that the authentication credentials are not requested every time we ned to access git.
+When dealing with remote repositories, Git uses SSH to connect to the remote repository in a secure way. In order to use SSH painlessly, we should create SSH keys so that the authentication credentials are not requested every time we ned to access git. There is an option for HTTPS authentication but that would require entering your password each time you need to submit an action to the remote repository.
 
 Hit up your favorite terminal and run `ssh-keygen` and follow the steps
 

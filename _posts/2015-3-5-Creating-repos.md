@@ -29,6 +29,26 @@ $ git add --all
 
 This will add all files under the current directory and this command can also be ran under a certain directory to include all files under that directory. Removing files can be accomplished with `git rm` and we can add or remove separate files by specifying the file's path.
 
+If we wish to start over, we can simply
+
+```bash
+$ git reset
+```
+
+or if we need to temporarily remove our changes we can run
+
+```bash
+$ git stash
+```
+
+and then to bring them back we may
+
+```bash
+$ git stash pop
+```
+
+And there is also a `git rm` command in order to remove a file under a given path
+
 We're now able to commit, to create a point in history where our code exists
 
 ```bash
