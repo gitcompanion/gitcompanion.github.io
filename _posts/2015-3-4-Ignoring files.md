@@ -21,6 +21,15 @@ This will create a file `.gitignore_global` under our home directory, where we c
 *.orig
 ```
 
+Alternatively you can ignore an entire folder, as an example you may want to ingore a log folder.
+
+```bash
+➜  ~  vim ~/.gitignore_global
+.DS_Store
+*.orig
+logs/
+```
+
 As you can see we've excluded MacOS `.DS_Store` files and `*.orig` files which are the backup files that git creates after merging
 
 The same functionality works within repositories themselves, only difference is that you need to name the file `.gitignore`
