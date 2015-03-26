@@ -3,7 +3,7 @@ layout: post
 title: Hooks and usages
 ---
 
-Git also provides us hooks. These are command that can be run when taking certain actions. The commands are bash scripts which run every time the corresponding action is taken and reside under `.git/hooks`
+Git also provides us with hooks. These are command that can be run when taking certain actions. The commands are bash scripts which run every time the corresponding action is taken and reside under `.git/hooks`
 
 ```bash
 $ ls .git/hooks
